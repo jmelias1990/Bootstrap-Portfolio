@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
 }
 
+/* general */
 
 .container {
   width: 100%;
@@ -49,7 +50,7 @@ h3 {
   font-size: 22px;
 }
 
-
+/* header */
 
 #masthead {
   position: fixed;
@@ -61,18 +62,6 @@ h3 {
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-
-.navbar {
-    float: right;
-  position: fixed;
-  z-index: 90;
-  width: 100%;
-  margin: 0 0 30px;
-  color: #4aaaa5;
-  background: #4aaaa5;
-  border-bottom: 2px solid #cccccc;
-}
-
 
 #logo {
   float: left;
@@ -86,6 +75,11 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
 }
 
 nav a {
@@ -102,6 +96,7 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+/* footer */
 
 footer {
   padding: 30px 0;
@@ -122,6 +117,8 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
+/* main */
+
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
@@ -136,6 +133,8 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
+
+/* portfolio page */
 
 .work {
   position: relative;
@@ -176,6 +175,8 @@ h3, h2 {
   margin-top: 10px;
   margin-right: 25px;
 }
+
+/* contact page */
 
 #contact-form ul {
   margin-bottom: 20px;
